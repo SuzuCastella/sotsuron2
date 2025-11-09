@@ -1,0 +1,20 @@
+# .gitignore ファイルを作成
+echo ".venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+*.db
+.DS_Store
+.env
+.env.*
+.idea/
+.vscode/
+build/
+dist/
+*.egg-info/
+.cache/
+.ipynb_checkpoints/
+" > .gitignore
