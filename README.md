@@ -37,3 +37,9 @@ Recov: Hello, world!
 Match: True
 ```
 
+## デモの実行(v2)
+```
+$ python sipit/cli/invert_prompt.py   --model gpt2 --device cuda   --text "Hello, world!"   --layer -1 --eps 0.003   --policy grad --gamma 0.05 --grad_steps 10   --grad_topk 256 --grad_fallback_brute   --batch_size 4096
+
+$ python sipit/cli/invert_prompt.py   --model gpt2   --device cuda   --dtype float16   --quantization int4   --bnb_compute_dtype bfloat16   --bnb_quant_type fp4   --text "Hello, world!"   --layer -1   --eps 0.003   --policy grad   --gamma 0.05 --grad_steps 10   --grad_topk 256 --grad_fallback_brute   --batch_size 1024
+```

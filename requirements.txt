@@ -4,3 +4,4 @@ accelerate>=0.29.0
 tqdm
 numpy
 pyyaml
+bitsandbytes>=0.43
