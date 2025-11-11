@@ -3,5 +3,8 @@ transformers>=4.39.0
 accelerate>=0.29.0
 tqdm
 numpy
+datasets
+pandas
+matplotlib
 pyyaml
 bitsandbytes>=0.43
